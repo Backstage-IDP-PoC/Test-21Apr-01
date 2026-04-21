@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test-21Apr-01
+  description: Python app that displays time - named Test-21Apr-01
+  annotations:
+    github.com/project-slug: Backstage-IDP-PoC/Test-21Apr-01
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name:  Backstage_PoC/Test-21Apr-01/main
+    argocd/app-name: test-21apr-01
+    argocd/instance-name: main
+ 
+spec:
+  type: service
+  owner: development
+
+  lifecycle: experimental
